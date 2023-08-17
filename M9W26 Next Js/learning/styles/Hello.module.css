@@ -1,0 +1,25 @@
+.counterContainer {
+  background-color: aqua;
+  color: white;
+}
+
+.btnContainer {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border: 1px solid white;
+  color: white;
+  background-color: aqua;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  border: 1px solid aqua;
+  color: aqua;
+  background-color: white;
+  border-radius: 5px;
+}
